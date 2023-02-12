@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("player1legs").innerHTML = count;
         document.getElementById("player1punkte_span").innerHTML = 501;
       } else if (spanValue < 0) {
-        document.getElementById("player1legs").innerHTML = "Negative number";
+        document.getElementById("player1legs").innerHTML = "-1";
       }
     }
 
